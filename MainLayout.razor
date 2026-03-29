@@ -1,0 +1,13 @@
+@inherits LayoutComponentBase
+
+<div class="site-container">
+    <NavMenu />
+
+    <main class="main-content">
+        @Body
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; @DateTime.Now.Year Finn Ryf. All rights reserved.</p>
+    </footer>
+</div>
